@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: darkmagenta;
+  color: white;
+  height: 65px;
+  padding: 20px;
+}
+.logo {
+  height: 100%;
+  margin-right: 6px;
+}
+.navbar > h1 {
+  margin-right: auto;
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  font-family: "Karla",sans-serif;
+}
+.btn {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  font-family: "Karla",sans-serif;
+  background-color: darkmagenta;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+main {
+  padding: 36px;
+}
+.form-input {
+  font-family: "Karla",sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.meme-image {
+  max-width: 100%;
 }

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header"
+import Meme from "./components/Meme"
+import React from "react"
 
 function App() {
+  // const [isGoingOut,setIsGoingOut] = React.useState(true)
+  // function flip() {
+  //   setIsGoingOut(prevState => !prevState)
+  // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Meme />
+      {/* <h1>Do I fell like going out tonight?</h1> */}
+      {/* <div onClick={flip}>
+        <h1>{isGoingOut ? "Yes": "No"}</h1>
+      </div> */}
     </div>
   );
 }
