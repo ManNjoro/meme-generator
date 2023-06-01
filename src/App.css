@@ -80,3 +80,20 @@ main {
 .meme-image {
   max-width: 100%;
 }
+.meme{
+  position: relative;
+  margin-top: 15px;
+}
+.meme > h2 {
+  position: absolute;
+}
+.top{
+  top: 4px;
+}
+.bottom {
+  bottom: 2px;
+}
+.meme-text {
+  color: #fff;
+  text-transform: uppercase;
+}
